@@ -1,0 +1,19 @@
+nav{
+    background-color: #9f9b9e;
+}
+
+a{
+color: rgb(126, 6, 6);
+}
+li{
+    padding: 0px;
+}
+.navbar-light .navbar-nav .nav-link{
+    padding: 0px;
+}
+
+.nav-bar li a.active {
+    background-color: #f00;
+    color: #fff;
+  }
+  

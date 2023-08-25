@@ -1,0 +1,76 @@
+
+.background-container {
+    width: 100%; /* Set your desired width */
+    height: 500px; /* Set your desired height */
+    background-image: url('./../../../assets/bus-12.png');
+    background-size: 100% 500px; /* This will ensure the image covers the container */
+    background-repeat: no-repeat; /* Prevent the image from repeating */
+    background-position: center;
+    margin-top: 55px;
+}
+.form{
+    padding: 150px;
+}
+.button-group{
+    display: flex;
+    justify-content: center;
+
+}
+.button{
+    margin: 10px;
+    max-width: 8%;
+    min-width: 80px;
+    margin-top: 0px;
+    border-radius: 8px;
+    background-color: aliceblue;
+    border: none;
+}
+.button:focus {
+    outline: none; /* Remove the default focus outline */
+}
+.button.active {
+    background-color: rgb(136, 8, 8); /* Change active button's background color */
+    color: #fff; /* Change active button's text color */
+}
+.search-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px !important;
+}
+
+.input-field,
+.input-date {
+    padding: 8px;
+    border: 1px solid #ccc;
+    width: 20%;
+}
+.frist{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+}
+.search-button {
+    padding: 8px 15px;
+    background-color: rgb(136, 8, 8);
+    color: #fff;
+    border: none;
+    cursor: pointer;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+}
+.container{
+    display: flex;
+    justify-content: center;
+}
+.card{
+    min-width: 250px;
+    /* max-width: 350px; */
+    height: 200px;
+    margin: 10px;
+    padding: 0px;
+    
+}
+.col-12{
+    
+    padding: 0px;
+}
