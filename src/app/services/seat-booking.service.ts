@@ -7,6 +7,7 @@ import { TicketGenerateService } from './ticket-generate.service';
   providedIn: 'root'
 })
 export class SeatBookingService {
+  [x: string]: any;
 
   journey: any;
   buses: Bus[] = (data  as  any).default;
