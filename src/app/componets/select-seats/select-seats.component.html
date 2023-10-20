@@ -1,6 +1,6 @@
 <div class="container-fluid parentcontainer">
     <div class="row justify-content-center mt-5 mb-5" *ngIf="busDetails">
-        <div class="col col-lg-4 col-md-6 col-sm-12 bus" placement="right" ngbTooltip="Click on seat icons to select seats">
+        <div class="col col-lg-4 col-md-6 col-sm-12 bus d-flex justify-content-center" placement="right" ngbTooltip="Click on seat icons to select seats">
             <form [formGroup]="form" (ngSubmit)="submit()">
                 <p class="lead">Select Seats</p>
                 <hr>
@@ -23,7 +23,7 @@
             <div class="row seatstable">
                 <ng-container *ngIf="selectedSeats.length;else noseaterror">
                     <h1>Selected seats</h1>
-                    <table class="table table-bordered">
+                    <table class="table ">
                         <thead>
                             <tr>
                             <th scope="col">Seats</th>

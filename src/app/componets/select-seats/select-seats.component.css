@@ -1,8 +1,9 @@
 
 form{
-    padding: 20px;
-    box-shadow:  3px 3px 5px 6px #ccc;
-    width: 240px;
+    padding: 13px;
+    box-shadow: 4px -4px 28px 6px #6ad770;
+    width: 196px;
+
 }
 label{
     margin-bottom: 0px !important;
@@ -51,4 +52,11 @@ br {
 }
 .img-fluid{
     height: 260px;
+}
+
+.mt-5 {
+    margin-top: 6rem!important;
+}
+th{
+    background-color: #7a7171;
 }
